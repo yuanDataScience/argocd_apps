@@ -6,7 +6,7 @@ metadata:
   labels:
     app.kubernetes.io/name: fastapi-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: custom-nginx
   rules:
   - host: app.local
     http:
