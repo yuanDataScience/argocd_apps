@@ -12,7 +12,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: /testfastapi
+        path: /fastapi
         backend:
           service:
             name: fastapi-app
