@@ -4,9 +4,7 @@ metadata:
   name: fastapi-ingress
   namespace: farm2
   labels:
-    app.kubernetes.io/name: fastapi-ingress  
-  annotations:
-      nginx.ingress.kubernetes.io/rewrite-target: /
+    app.kubernetes.io/name: fastapi-ingress    
 spec:
   ingressClassName: custom-nginx
   rules:
